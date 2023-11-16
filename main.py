@@ -233,3 +233,34 @@ for c in str1:
       else:
          str2 += c
 print(str2)"""
+
+# information about clothing brands in specific format- key as brand name ,launch year,model number,product and product size
+
+"""cloth = {}
+x = int(input("Enter the number of brands: "))
+for i in range(1,x+1):
+  print("brand-",i)
+  a = input("brand name: ")
+  b = int(input("launch year: "))
+  c = input("model number: ")
+  d = input("product: ")
+  e = input("product size: ")
+  print()
+  if a in cloth:
+    cloth[a].append(e)
+  else:
+    cloth.update({a:[e]})
+print(cloth)"""
+
+#input restaurants names and monthly revenue in two locations and create a dictionary of restaurants with monthly revenue in both locations
+"""res = {}
+n = int(input("how many restaurants?"))
+for i in range(1,n+1):
+
+  print("restaurant-",i)
+  a = input("rastaurant name:")
+  b = input("revenue in location-1: ")
+  c = input("revenue in location-2: ")
+  x = [b,c]
+  res.update({a:x})
+print(res)"""
